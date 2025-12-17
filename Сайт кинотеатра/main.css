@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+body {
+    background-color: #0D1B2A;
+}
+header {
+    position: relative;
+    background-color: #8B0000;
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+    text-align: center;
+    align-items: center;
+}
+header #logo {
+    display: block;
+    color: #E0E0E0;
+    font-size: 30px;
+    margin-left: 20px;
+}
+nav ul li {
+    float: left;
+    position: relative;
+}
+nav ul li a {
+    display: block;
+    padding: 25px;
+    font-size: 30px;
+    color: #E0E0E0;
+}
+nav ul li a:hover {
+    background-color: #c21414;
+}
+#mainpicture {
+    background-size: cover;       
+    background-position: center;
+    width: 100%;
+    height: 750px;
+    box-shadow: inset 0 200px 500px black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    animation: backgruonanim 60s linear infinite alternate;
+}
+@keyframes backgruonanim {
+    0% {background-image: url(https://www.soyuz.ru/public/uploads/files/5/7483074/1005x558_20220608184430c5a837a8f5.jpg);}
+    20% {background-image: url(https://www.soyuz.ru/public/uploads/files/5/7483074/1005x558_20220608184430c5a837a8f5.jpg);}
+    40% {background-image: url(https://www.kino-teatr.ru/video/17243/start.jpg);}
+    60% {background-image: url(https://static.kino.1tv.ru/cdn/2686/background.jpg);}
+    80% {background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV8E-dcisDJHLUUk94ICSFp8hsu3ml7rc6Hg&s);}
+    100% {background-image: url(https://i.ytimg.com/vi/Ej2UrBih-DI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD4L6AC-RFQfdPryEuLc90eD8v1-Q);}
+}
+
+#afishas {
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+.film {
+    width: 340px;
+    height: 480px;
+    background-color: #24466a;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#zagafish {
+    font-size: 40px;
+    color: #E0E0E0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    width: 250px;
+    height: 320px;
+    border-radius: 30px;
+    margin-top: 5px;
+    object-fit: cover;
+}
+.buyticket {
+    display: block;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #FFD700;
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #8B0000;
+    line-height: 60px;
+}
+h1 {
+    color: #E0E0E0;
+    margin-top: 150px;
+    font-size: 35px;
+
+}
+#aboutcinema {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#block {
+    width: 600px;
+    height: 500px;
+    border: 4px solid white;
+}
+#abouth2 {
+    text-align: center;
+    font-size: 30px;
+    color: #E0E0E0;
+    margin-bottom: 35px;
+}
+.description {
+    color: #E0E0E0;
+    margin: 9px;
+    text-align: justify;
+    font-size: 20px;
+}
+footer {
+    background-color: #8B0000;
+}
+#contactsh2 {
+    color: #E0E0E0;
+    text-align: center;
+    font-size: 35px;
+}
+.contacts {
+    color: #E0E0E0;
+    text-align: center;
+    font-size: 30px;
+}
