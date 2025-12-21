@@ -51,3 +51,7 @@ function updateInfo() {
     priceInfo.innerHTML = totalPrice
     seatsInfo.innerHTML = bookedSeats
 }
+
+function bying() {
+    alert("Билеты куплены")
+}
